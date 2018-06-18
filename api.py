@@ -1,4 +1,3 @@
-import os
 from scrapy import *
 from flask import Flask, jsonify
 
