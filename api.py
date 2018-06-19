@@ -26,7 +26,7 @@ def api():
 					 			'won-sul coreano': f'{kb[1].text}', 
 					 			'yuan': f'{kc[1].text}'
 					 			},
-					 		'update': f'{upd}'
+					 		'update': upd
 						 }						 						 		
 					] 
 				)
