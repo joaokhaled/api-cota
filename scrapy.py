@@ -53,5 +53,5 @@ pagec = requests.get('https://dolarhoje.com/yuan-hoje/')
 soupc = BeautifulSoup(pagec.content, 'html.parser')
 kc = soupc.find('table').find('tbody').find_all('td')
 
-url = requests.get('https://api.coinmarketcap.com/v2/ticker/?convert=BRL').json()
-upd = url['data']['1']['last_updated']
+#url = requests.get('https://api.coinmarketcap.com/v2/ticker/?convert=BRL').json()
+#upd = url['data']['1']['last_updated']
